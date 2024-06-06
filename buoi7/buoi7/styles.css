@@ -1,0 +1,274 @@
+body {
+  font-family: Poppins, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #f7f7f7;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+  /* background-color: #e5e5e5; */
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  align-items: center;
+  transition: align-items 1s;
+  font-weight: bold;
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.logo img {
+  width: 40px;
+  height: auto;
+  margin: 0 15px;
+}
+header nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+header nav .button {
+  padding: 8px 16px;
+  background-color: #000000;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.hero {
+  margin: 100px 0 140px;
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 60px;
+  height: min-content;
+  justify-content: center;
+  overflow: visible;
+  padding: 0;
+  position: relative;
+}
+
+.content_hero {
+  width: 35%;
+}
+
+.heading1 {
+  font-size: 80px;
+}
+
+.heading2 {
+  font-size: 24px;
+}
+
+.hero img {
+  border-radius: 20px;
+}
+
+.hero h1 {
+  font-size: 80px;
+}
+
+.career {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .grid_career {
+  align-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 600px 600px;
+  gap: 60px;
+  justify-content: center;
+} */
+.grid_career {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  justify-content: center;
+  overflow: visible;
+  width: 60%;
+}
+.content_career h2 {
+  font-size: 44px;
+  text-align: start;
+  margin: 0;
+}
+
+.content_career p {
+  font-size: 20px;
+}
+
+.heading3 {
+  font-size: 44px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: start;
+  margin: 30px 200px;
+  padding: 20px 95px;
+}
+
+.career,
+.testimonial,
+.contact {
+  padding: 40px 20px;
+  background-color: #fff;
+  margin: 20px 0;
+}
+
+.contact h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.skills {
+  padding: 100px 0 0 0;
+}
+.career .skills span {
+  display: inline-block;
+  margin: 0px 10px 10px 0px;
+  padding: 8px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  border: 1px solid;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.contact form label {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 10px;
+  background-color: #eeeff1;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.testimonial_content {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 100px;
+  justify-content: space-between;
+  overflow: visible;
+  padding: 0 300px;
+}
+
+.testimonial img {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.testimonial blockquote {
+  font-size: 20px;
+}
+
+.contact {
+  padding: 0 350px;
+}
+.content_contact {
+  border: 1px solid #000000;
+  border-radius: 14px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  align-items: center;
+}
+.content_contact h1 {
+  font-size: 64px;
+  margin: 0;
+  padding: 0 50px;
+}
+
+.contact_form {
+  width: 400px;
+  height: auto;
+  margin: 50px 0;
+}
+.formup {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.form_1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact form label {
+  margin-top: 10px;
+}
+
+.contact form input,
+.contact form textarea {
+  height: 40px;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+}
+
+.contact form button {
+  margin: 0 0px 50px 0;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer .social-links {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 800px;
+  padding: 20px 60px;
+  justify-content: center;
+  align-items: center;
+  transition: align-items 1s;
+}
+
+footer .social-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+.logo_footer {
+  width: 40px;
+  height: auto;
+}
